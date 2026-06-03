@@ -10,8 +10,8 @@ export default function Projects() {
             Featured <span className="gradient-text">work</span>
           </h2>
           <p className="mt-4 max-w-2xl text-muted">
-            Production-minded projects spanning machine learning pipelines, big data processing, and full-stack
-            applications.
+            Projects spanning regression modeling, distributed data pipelines, and full-stack platforms — built with
+            performance and clarity in mind.
           </p>
         </div>
 

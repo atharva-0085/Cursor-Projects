@@ -27,6 +27,14 @@ export default function Footer() {
             LinkedIn
           </a>
           <a
+            href={personal.website}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sm text-muted transition-colors hover:text-accent-400"
+          >
+            Website
+          </a>
+          <a
             href={`mailto:${personal.email}`}
             className="text-sm text-muted transition-colors hover:text-accent-400"
           >

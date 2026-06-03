@@ -13,29 +13,44 @@ export interface SkillGroup {
   skills: string[]
 }
 
+export interface Experience {
+  role: string
+  company: string
+  location: string
+  period: string
+  highlights: string[]
+}
+
 export const personal = {
   name: 'Atharva Gangrade',
   firstName: 'Atharva',
   title: 'Computer Science Student',
-  tagline: 'Building production-grade ML systems & distributed data pipelines',
+  tagline: 'Product management, data analytics & software development',
   location: 'Charlotte, NC',
   email: 'atharvagangrade8@gmail.com',
   phone: '(704) 369-6432',
   linkedin: 'https://linkedin.com/in/atharva-gangrade',
   github: 'https://github.com/atharva-0085',
+  website: 'https://agangrad2.wixsite.com/atharva-gangrade',
 }
 
 export const summary =
-  'Computer Science student building production-grade ML systems and distributed data pipelines processing large-scale datasets. Improved model accuracy (R² up to 0.89) and reduced system runtime by up to 28% through optimization and scalable backend design. Strong in Python, Java, distributed systems, and performance-driven engineering.'
+  'Computer Science student with experience in product management, data analytics, and software development. Skilled at translating business requirements into data-driven solutions, optimizing workflows, and collaborating across cross-functional teams.'
 
 export const education = {
   school: 'University of North Carolina at Charlotte',
   degree: 'B.S. Computer Science',
   location: 'Charlotte, NC',
   period: 'August 2023 – May 2027 (Expected)',
-  gpa: '3.66',
-  honors: ["Dean's List: Fall 2023, Spring 2024", "Chancellor's List: Fall 2024, Spring 2025, Fall 2025"],
+  gpa: '3.71',
+  honors: [
+    "Dean's List: Fall 2023, Spring 2024",
+    "Chancellor's List: Fall 2024, Spring 2025, Fall 2025, Spring 2026",
+  ],
   courses: [
+    'Introduction to Java',
+    'Introduction to Python',
+    'Introduction to Software Engineering',
     'Data Structures & Algorithms',
     'Database Design & Implementation',
     'Operating Systems & Networking',
@@ -43,70 +58,65 @@ export const education = {
     'Cloud Computing & Data Analysis',
     'Machine Learning',
     'Visual Analytics',
-    'Software Engineering',
   ],
 }
 
+export const experience: Experience[] = [
+  {
+    role: 'Product Management Intern',
+    company: 'Stirista',
+    location: 'San Antonio, TX',
+    period: 'May 2026 – Present',
+    highlights: [
+      'Collaborate with Product, AI Engineering, Data, and Client Services teams to evaluate workflows and drive product improvement initiatives.',
+      'Analyze user journeys across StiristaOne to identify usability gaps, feature enhancement opportunities, and workflow inefficiencies.',
+      'Research and propose AI-driven solutions for audience discovery, campaign planning, and customer targeting.',
+      'Gather stakeholder requirements and translate business needs into user stories, feature recommendations, and product specifications.',
+      'Perform product testing and QA for audience segmentation and activation features.',
+      'Designed and presented an AI-assisted audience planning solution to streamline targeting workflows.',
+    ],
+  },
+]
+
 export const skillGroups: SkillGroup[] = [
   {
-    category: 'Programming',
-    skills: ['Python', 'Java', 'C#', 'SQL'],
+    category: 'Languages',
+    skills: ['Python', 'Java', 'C#'],
   },
   {
-    category: 'ML & Data',
-    skills: ['Pandas', 'NumPy', 'Scikit-Learn', 'Random Forest', 'Regression', 'Feature Engineering'],
+    category: 'Data',
+    skills: ['SQL', 'Data Modeling', 'ETL/ELT', 'KPI Analysis'],
   },
   {
-    category: 'Distributed Systems',
-    skills: ['Hadoop MapReduce', 'Apache Spark'],
+    category: 'Data Engineering',
+    skills: ['Spark', 'Hadoop', 'MapReduce'],
   },
   {
-    category: 'Backend & APIs',
-    skills: ['Django', 'React', 'REST APIs'],
-  },
-  {
-    category: 'Cloud & DevOps',
-    skills: ['AWS', 'Azure', 'Docker', 'Git'],
-  },
-  {
-    category: 'Data Tools',
+    category: 'BI & Visualization',
     skills: ['Power BI'],
+  },
+  {
+    category: 'Cloud & Tools',
+    skills: ['AWS', 'Azure', 'Git', 'Docker'],
+  },
+  {
+    category: 'Backend',
+    skills: ['Django', 'REST APIs'],
   },
 ]
 
 export const projects: Project[] = [
   {
-    title: 'Global Food Wastage Predictive Analytics',
-    subtitle: 'End-to-End ML Pipeline',
-    period: 'Oct 2025 – Dec 2025',
-    github: 'https://github.com/atharva-0085/Global-Food-Wastage-Predictive-Analytics',
-    tags: ['Python', 'Scikit-Learn', 'Random Forest', 'Feature Engineering'],
-    metrics: [
-      { label: 'R² Score', value: '0.87' },
-      { label: 'RMSE Reduction', value: '18%' },
-    ],
-    highlights: [
-      'Built end-to-end ML pipeline on multi-country, multi-year economic dataset with feature engineering, model tuning, and validation.',
-      'Optimized Random Forest (400 estimators), achieving R² = 0.87 and reducing RMSE by 18% vs baseline on 20% holdout.',
-      'Identified top economic loss drivers via feature importance and correlation modeling.',
-      'Designed reproducible training workflow with structured experimentation and evaluation tracking.',
-    ],
-  },
-  {
     title: 'Used Car Price Prediction',
-    subtitle: 'Advanced Regression Modeling',
+    subtitle: 'Advanced Regression Modeling & Feature Intelligence',
     period: 'June 2025 – Aug 2025',
     github: 'https://github.com/atharva-0085/Used-Car-Price-Prediction',
-    tags: ['Python', 'Regression', 'Hyperparameter Tuning', 'Cross-Validation'],
-    metrics: [
-      { label: 'R² Score', value: '0.89' },
-      { label: 'CV Improvement', value: '13%' },
-    ],
+    tags: ['Python', 'Regression', 'Cross-Validation', 'Hyperparameter Tuning'],
     highlights: [
-      'Engineered structured dataset with encoding, scaling, and outlier handling, improving 5-fold CV performance by 13%.',
-      'Benchmarked regression models, selecting optimal model achieving R² = 0.89 with minimized RMSE/MAE.',
-      'Extracted key pricing drivers to support data-driven valuation strategy.',
-      'Applied systematic hyperparameter tuning for performance optimization.',
+      'Cleaned and transformed structured datasets for modeling and reporting.',
+      'Benchmarked models using cross-validation to select optimal performance.',
+      'Extracted interpretable drivers to support data-driven valuation and reporting.',
+      'Applied hyperparameter tuning for systematic performance optimization.',
     ],
   },
   {
@@ -117,10 +127,10 @@ export const projects: Project[] = [
     tags: ['Java', 'Hadoop', 'MapReduce', 'Distributed Systems'],
     metrics: [{ label: 'Runtime Reduction', value: '28%' }],
     highlights: [
-      'Engineered distributed Hadoop MapReduce jobs in Java to process large public datasets for compliance and risk aggregation.',
-      'Reduced end-to-end runtime by 28% through partitioning strategy, combiner optimization, and reducer parallelism.',
-      'Implemented fault-tolerant batch workflows for reliable large-scale data processing.',
-      'Optimized key distribution to minimize shuffle bottlenecks.',
+      'Designed distributed data processing workflows for large public datasets.',
+      'Optimized relational outputs for analytics and reporting use cases.',
+      'Reduced runtime by 28% through partitioning strategy and reducer parallelism.',
+      'Ensured data integrity through validation logic in batch pipelines.',
     ],
   },
   {
@@ -128,19 +138,20 @@ export const projects: Project[] = [
     subtitle: 'Full-Stack Platform for International Students',
     period: 'Feb 2025 – May 2025',
     github: 'https://github.com/atharva-0085/UniSphere',
-    tags: ['Django', 'React', 'REST APIs', 'PostgreSQL'],
+    tags: ['Django', 'REST APIs', 'SQL', 'RBAC'],
     metrics: [{ label: 'Query Latency', value: '-15%' }],
     highlights: [
-      'Architected scalable Django backend with normalized relational schema and REST APIs for housing & roommate workflows.',
-      'Reduced query latency by 15% via indexing and execution plan optimization under concurrent usage.',
-      'Implemented modular backend architecture with secure authentication and role-based access control.',
-      'Designed database schema to minimize redundancy and improve join efficiency.',
+      'Designed normalized relational schemas for high-volume transactions.',
+      'Optimized SQL queries and indexing to reduce latency by 15% under concurrent usage.',
+      'Implemented role-based access control (RBAC) with secure authentication.',
+      'Structured backend APIs for clean data flow across housing and roommate workflows.',
     ],
   },
 ]
 
 export const navLinks = [
   { label: 'About', href: '#about' },
+  { label: 'Experience', href: '#experience' },
   { label: 'Skills', href: '#skills' },
   { label: 'Projects', href: '#projects' },
   { label: 'Education', href: '#education' },

@@ -15,7 +15,7 @@ export default function About() {
           <div className="glass card-hover rounded-2xl p-8 lg:col-span-3">
             <p className="text-base leading-relaxed text-muted-light sm:text-lg">{summary}</p>
             <div className="mt-8 flex flex-wrap gap-3">
-              {['ML Systems', 'Distributed Computing', 'Backend Engineering', 'Data Pipelines'].map((tag) => (
+              {['Product Management', 'Data Analytics', 'Software Development', 'Cross-Functional Collaboration'].map((tag) => (
                 <span
                   key={tag}
                   className="rounded-full bg-accent-500/10 px-4 py-1.5 text-xs font-medium text-accent-400 ring-1 ring-accent-500/20"
