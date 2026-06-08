@@ -1,12 +1,16 @@
-# Atharva Gangrade — Portfolio
+# AudienceAI — Audience Recommendation Assistant
 
-A professional portfolio website showcasing ML systems, distributed data pipelines, and full-stack engineering projects.
+A single-page demo application that shows how AI-assisted audience building could simplify marketing workflows. Marketers describe targeting goals in plain English, and the app recommends relevant audience attributes from predefined marketing categories.
 
-## Tech Stack
+## Features
 
-- **React 19** with TypeScript
-- **Vite** for fast development and optimized builds
-- **Tailwind CSS v4** for styling
+- Plain-English audience goal input
+- Keyword-based recommendation engine (no external AI APIs)
+- Attributes grouped by category: Demographics, Geography, Interests, Income, Homeownership, Automotive, Purchase Behavior
+- Confidence scores: High, Medium, Low
+- Click-to-add attributes to a Suggested Audience panel
+- Sample prompts for quick testing
+- Responsive, modern UI
 
 ## Getting Started
 
@@ -15,28 +19,26 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) to view the site locally.
+Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-## Build for Production
+## Example
+
+**Input:** `Find parents interested in travel`
+
+**Output:**
+- **Demographics:** Presence of Children, Age 30–50
+- **Interests:** Travel, Family Activities
+- **Purchase Behavior:** Frequent Travelers
+
+## Tech Stack
+
+- React 19 + TypeScript
+- Vite
+- Tailwind CSS v4
+
+## Build
 
 ```bash
 npm run build
 npm run preview
 ```
-
-The `dist/` folder can be deployed to Vercel, Netlify, or GitHub Pages.
-
-## Deploy to GitHub Pages
-
-1. Update `base` in `vite.config.ts` if deploying to a project subdirectory
-2. Run `npm run build`
-3. Deploy the `dist/` folder
-
-## Sections
-
-- **Hero** — Introduction and key metrics
-- **About** — Profile summary and quick info
-- **Skills** — Technical expertise grouped by category
-- **Projects** — Featured work with GitHub links
-- **Education** — UNC Charlotte details and coursework
-- **Contact** — Email, phone, LinkedIn, and GitHub

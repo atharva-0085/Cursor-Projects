@@ -1,0 +1,254 @@
+{
+  "categories": [
+    {
+      "name": "Demographics",
+      "attributes": [
+        {
+          "id": "presence-of-children",
+          "label": "Presence of Children",
+          "keywords": ["parent", "parents", "children", "kids", "family", "mother", "father", "child"]
+        },
+        {
+          "id": "age-18-24",
+          "label": "Age 18–24",
+          "keywords": ["young adult", "college", "student", "gen z", "teen", "teenager"]
+        },
+        {
+          "id": "age-25-34",
+          "label": "Age 25–34",
+          "keywords": ["millennial", "young professional", "young professionals", "early career"]
+        },
+        {
+          "id": "age-30-50",
+          "label": "Age 30–50",
+          "keywords": ["parent", "parents", "midlife", "established", "family"]
+        },
+        {
+          "id": "age-35-54",
+          "label": "Age 35–54",
+          "keywords": ["professional", "career", "established", "mature"]
+        },
+        {
+          "id": "age-55-plus",
+          "label": "Age 55+",
+          "keywords": ["senior", "retiree", "retirement", "boomer", "elderly", "older"]
+        },
+        {
+          "id": "college-educated",
+          "label": "College Educated",
+          "keywords": ["professional", "graduate", "educated", "degree", "college"]
+        },
+        {
+          "id": "married",
+          "label": "Married",
+          "keywords": ["married", "couple", "spouse", "wedding", "family"]
+        }
+      ]
+    },
+    {
+      "name": "Geography",
+      "attributes": [
+        {
+          "id": "texas",
+          "label": "Texas",
+          "keywords": ["texas", "tx", "dallas", "houston", "austin", "san antonio"]
+        },
+        {
+          "id": "california",
+          "label": "California",
+          "keywords": ["california", "ca", "los angeles", "san francisco", "san diego"]
+        },
+        {
+          "id": "new-york",
+          "label": "New York",
+          "keywords": ["new york", "nyc", "manhattan", "brooklyn"]
+        },
+        {
+          "id": "florida",
+          "label": "Florida",
+          "keywords": ["florida", "fl", "miami", "orlando", "tampa"]
+        },
+        {
+          "id": "urban",
+          "label": "Urban Areas",
+          "keywords": ["urban", "city", "metro", "downtown", "metropolitan"]
+        },
+        {
+          "id": "suburban",
+          "label": "Suburban Areas",
+          "keywords": ["suburban", "suburb", "neighborhood", "residential"]
+        },
+        {
+          "id": "rural",
+          "label": "Rural Areas",
+          "keywords": ["rural", "country", "farm", "agricultural"]
+        }
+      ]
+    },
+    {
+      "name": "Interests",
+      "attributes": [
+        {
+          "id": "travel",
+          "label": "Travel",
+          "keywords": ["travel", "vacation", "tourism", "trip", "destination", "airline", "hotel"]
+        },
+        {
+          "id": "family-activities",
+          "label": "Family Activities",
+          "keywords": ["family", "kids", "children", "parent", "activities", "playground"]
+        },
+        {
+          "id": "technology",
+          "label": "Technology",
+          "keywords": ["technology", "tech", "gadget", "software", "digital", "innovation", "startup"]
+        },
+        {
+          "id": "home-improvement",
+          "label": "Home Improvement",
+          "keywords": ["home improvement", "renovation", "remodel", "diy", "contractor", "repair"]
+        },
+        {
+          "id": "fitness",
+          "label": "Fitness & Wellness",
+          "keywords": ["fitness", "gym", "workout", "wellness", "health", "yoga", "running"]
+        },
+        {
+          "id": "fashion",
+          "label": "Fashion & Style",
+          "keywords": ["fashion", "style", "clothing", "apparel", "designer", "luxury fashion"]
+        },
+        {
+          "id": "food-dining",
+          "label": "Food & Dining",
+          "keywords": ["food", "dining", "restaurant", "cooking", "culinary", "gourmet"]
+        },
+        {
+          "id": "outdoor-recreation",
+          "label": "Outdoor Recreation",
+          "keywords": ["outdoor", "camping", "hiking", "nature", "adventure", "sports"]
+        },
+        {
+          "id": "finance-investing",
+          "label": "Finance & Investing",
+          "keywords": ["finance", "investing", "stocks", "wealth", "portfolio", "financial"]
+        }
+      ]
+    },
+    {
+      "name": "Income",
+      "attributes": [
+        {
+          "id": "high-income",
+          "label": "High Income ($150K+)",
+          "keywords": ["luxury", "affluent", "wealthy", "high income", "premium", "upscale", "high-end"]
+        },
+        {
+          "id": "upper-middle-income",
+          "label": "Upper Middle Income ($75K–$150K)",
+          "keywords": ["professional", "upper middle", "comfortable", "established"]
+        },
+        {
+          "id": "middle-income",
+          "label": "Middle Income ($40K–$75K)",
+          "keywords": ["middle income", "middle class", "average income"]
+        },
+        {
+          "id": "budget-conscious",
+          "label": "Budget Conscious",
+          "keywords": ["budget", "affordable", "value", "deal", "discount", "savings", "frugal"]
+        }
+      ]
+    },
+    {
+      "name": "Homeownership",
+      "attributes": [
+        {
+          "id": "homeowner",
+          "label": "Homeowner",
+          "keywords": ["homeowner", "homeowners", "own home", "property owner", "house owner"]
+        },
+        {
+          "id": "renter",
+          "label": "Renter",
+          "keywords": ["renter", "renting", "apartment", "lease", "tenant"]
+        },
+        {
+          "id": "recent-homebuyer",
+          "label": "Recent Homebuyer",
+          "keywords": ["new home", "recent buyer", "first home", "mortgage", "home purchase"]
+        },
+        {
+          "id": "home-improvement-intent",
+          "label": "Home Improvement Intent",
+          "keywords": ["home improvement", "renovation", "remodel", "upgrade", "landscaping"]
+        }
+      ]
+    },
+    {
+      "name": "Automotive",
+      "attributes": [
+        {
+          "id": "luxury-car-buyer",
+          "label": "Luxury Car Buyer",
+          "keywords": ["luxury car", "luxury vehicle", "bmw", "mercedes", "audi", "lexus", "porsche", "premium car"]
+        },
+        {
+          "id": "suv-owner",
+          "label": "SUV Owner",
+          "keywords": ["suv", "crossover", "family vehicle", "sport utility"]
+        },
+        {
+          "id": "electric-vehicle",
+          "label": "Electric Vehicle Interest",
+          "keywords": ["electric", "ev", "tesla", "hybrid", "green vehicle", "sustainable transport"]
+        },
+        {
+          "id": "truck-owner",
+          "label": "Truck Owner",
+          "keywords": ["truck", "pickup", "ford f-150", "work vehicle"]
+        },
+        {
+          "id": "car-buyer-intent",
+          "label": "In-Market Car Buyer",
+          "keywords": ["car buyer", "buy car", "purchase vehicle", "auto shopping", "dealership"]
+        }
+      ]
+    },
+    {
+      "name": "Purchase Behavior",
+      "attributes": [
+        {
+          "id": "frequent-travelers",
+          "label": "Frequent Travelers",
+          "keywords": ["travel", "frequent flyer", "vacation", "trip", "tourism", "wanderlust"]
+        },
+        {
+          "id": "online-shoppers",
+          "label": "Online Shoppers",
+          "keywords": ["online shopping", "ecommerce", "amazon", "digital buyer", "shop online"]
+        },
+        {
+          "id": "brand-loyal",
+          "label": "Brand Loyal Consumers",
+          "keywords": ["brand loyal", "loyalty", "repeat buyer", "premium brand"]
+        },
+        {
+          "id": "early-adopters",
+          "label": "Early Adopters",
+          "keywords": ["early adopter", "innovation", "new product", "technology", "trendsetter"]
+        },
+        {
+          "id": "luxury-shoppers",
+          "label": "Luxury Shoppers",
+          "keywords": ["luxury", "premium", "high-end", "designer", "upscale", "exclusive"]
+        },
+        {
+          "id": "deal-seekers",
+          "label": "Deal Seekers",
+          "keywords": ["deal", "coupon", "discount", "sale", "bargain", "promotion"]
+        }
+      ]
+    }
+  ]
+}
