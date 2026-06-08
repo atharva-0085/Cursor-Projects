@@ -1,12 +1,12 @@
 import { skillGroups } from '../data/portfolio'
 
 const categoryIcons: Record<string, string> = {
-  Programming: '</>',
-  'ML & Data': '◈',
-  'Distributed Systems': '⬡',
-  'Backend & APIs': '⚙',
-  'Cloud & DevOps': '☁',
-  'Data Tools': '▤',
+  Languages: '</>',
+  Data: '◈',
+  'Data Engineering': '⬡',
+  'BI & Visualization': '▤',
+  'Cloud & Tools': '☁',
+  Backend: '⚙',
 }
 
 export default function Skills() {
@@ -21,8 +21,8 @@ export default function Skills() {
             Technical <span className="gradient-text">expertise</span>
           </h2>
           <p className="mt-4 max-w-2xl text-muted">
-            A toolkit spanning machine learning, distributed systems, and full-stack development — focused on
-            performance and scalability.
+            Skills spanning data engineering, analytics, backend development, and cloud tooling — with a focus on
+            translating business needs into reliable solutions.
           </p>
         </div>
 

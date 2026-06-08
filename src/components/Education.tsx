@@ -59,7 +59,7 @@ export default function Education() {
             <div className="mt-8 rounded-xl bg-surface-800/50 p-5 ring-1 ring-white/5">
               <p className="text-sm leading-relaxed text-muted">
                 Coursework spans core CS fundamentals, data mining, cloud computing, machine learning, and visual
-                analytics — providing a strong theoretical and practical foundation for building scalable systems.
+                analytics — supporting work across product, data, and software development.
               </p>
             </div>
           </div>

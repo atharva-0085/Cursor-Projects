@@ -26,10 +26,10 @@ export default function Hero() {
 
           <div className="animate-fade-up delay-400 mt-10 flex flex-wrap gap-4">
             <a
-              href="#projects"
+              href="#experience"
               className="inline-flex items-center gap-2 rounded-xl bg-accent-500 px-6 py-3 text-sm font-semibold text-surface-950 transition-all hover:bg-accent-400 hover:shadow-lg hover:shadow-accent-500/25"
             >
-              View Projects
+              View Experience
               <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
               </svg>
@@ -65,10 +65,10 @@ export default function Hero() {
 
           <div className="animate-fade-up delay-500 mt-16 grid grid-cols-2 gap-6 sm:grid-cols-4">
             {[
-              { value: '0.89', label: 'Best R² Score' },
+              { value: '3.71', label: 'GPA' },
               { value: '28%', label: 'Runtime Reduction' },
-              { value: '3.66', label: 'GPA' },
-              { value: '4+', label: 'Major Projects' },
+              { value: '3+', label: 'Major Projects' },
+              { value: '2026', label: 'PM Intern · Stirista' },
             ].map((stat) => (
               <div key={stat.label} className="glass rounded-xl p-4 text-center">
                 <div className="text-2xl font-bold text-accent-400">{stat.value}</div>
