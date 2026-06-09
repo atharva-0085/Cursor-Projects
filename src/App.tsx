@@ -47,6 +47,7 @@ export default function App() {
           label: rec.attribute.label,
           category: rec.category,
           confidence: rec.confidence,
+          reason: rec.reason,
         },
       ]
     })

@@ -7,7 +7,7 @@ A single-page demo application that shows how AI-assisted audience building coul
 - Plain-English audience goal input
 - Keyword-based recommendation engine (no external AI APIs)
 - Attributes grouped by category: Demographics, Geography, Interests, Income, Homeownership, Automotive, Purchase Behavior
-- Confidence scores: High, Medium, Low
+- Confidence scores: High, Medium, Low, plus a one-line reason for each suggestion
 - Click-to-add attributes to a Suggested Audience panel
 - Sample prompts for quick testing
 - Responsive, modern UI

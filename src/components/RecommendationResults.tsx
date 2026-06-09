@@ -73,23 +73,26 @@ export default function RecommendationResults({
                   <button
                     type="button"
                     onClick={() => onToggle(rec)}
-                    className={`flex w-full items-center justify-between gap-3 rounded-lg border px-3 py-2.5 text-left transition-all ${
+                    className={`flex w-full items-start justify-between gap-3 rounded-lg border px-3 py-2.5 text-left transition-all ${
                       isSelected
                         ? 'border-violet-500/40 bg-violet-500/15 text-violet-100'
                         : 'border-white/5 bg-surface-900/50 text-slate-200 hover:border-violet-500/25 hover:bg-violet-500/8'
                     }`}
                   >
-                    <span className="flex items-center gap-2 text-sm">
-                      {isSelected && (
-                        <svg className="h-4 w-4 shrink-0 text-violet-400" fill="currentColor" viewBox="0 0 20 20">
-                          <path
-                            fillRule="evenodd"
-                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                            clipRule="evenodd"
-                          />
-                        </svg>
-                      )}
-                      {rec.attribute.label}
+                    <span className="min-w-0 flex-1">
+                      <span className="flex items-center gap-2 text-sm font-medium">
+                        {isSelected && (
+                          <svg className="h-4 w-4 shrink-0 text-violet-400" fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                              fillRule="evenodd"
+                              d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                              clipRule="evenodd"
+                            />
+                          </svg>
+                        )}
+                        {rec.attribute.label}
+                      </span>
+                      <span className="mt-1 block text-xs leading-snug text-slate-400">{rec.reason}</span>
                     </span>
                     <ConfidenceBadge level={rec.confidence} />
                   </button>

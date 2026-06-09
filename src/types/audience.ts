@@ -16,6 +16,7 @@ export interface Recommendation {
   category: string
   confidence: ConfidenceLevel
   score: number
+  reason: string
 }
 
 export interface SelectedAttribute {
@@ -23,4 +24,5 @@ export interface SelectedAttribute {
   label: string
   category: string
   confidence: ConfidenceLevel
+  reason: string
 }

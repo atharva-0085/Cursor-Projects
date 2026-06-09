@@ -62,9 +62,12 @@ export default function SuggestedAudience({ attributes, onRemove, onClear }: Sug
                       key={attr.id}
                       className="flex items-center justify-between gap-2 rounded-lg border border-violet-500/20 bg-violet-500/8 px-3 py-2"
                     >
-                      <div className="flex min-w-0 flex-col gap-1">
-                        <span className="truncate text-sm text-slate-100">{attr.label}</span>
-                        <ConfidenceBadge level={attr.confidence} />
+                      <div className="min-w-0 flex-1 flex-col gap-1">
+                        <span className="text-sm text-slate-100">{attr.label}</span>
+                        <span className="mt-0.5 text-xs leading-snug text-slate-400">{attr.reason}</span>
+                        <div className="mt-1">
+                          <ConfidenceBadge level={attr.confidence} />
+                        </div>
                       </div>
                       <button
                         type="button"
